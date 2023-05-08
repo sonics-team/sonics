@@ -6,5 +6,5 @@
   "linked": [],
   "access": "public",
   "updateInternalDependencies": "patch",
-  "ignore": ["@sonics/docs"]
+  "ignore": ["@sonics/docs", "@sonics/web"]
 }
