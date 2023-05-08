@@ -186,6 +186,20 @@ This example includes a few helpful Storybook scripts:
 - `pnpm build`: Builds the Storybook UI and generates the static HTML files
 - `pnpm preview-storybook`: Starts a local server to view the generated Storybook UI
 
+## React application for testing
+
+React app allows us to preview our components in the browser and instantly see changes when developing locally
+
+For example, test button:
+
+```js:apps/web/App.tsx
+import { Button } from '@sonics-core/src';
+
+export default function App() {
+  return <Button>button from sonics-core</Button>
+}
+```
+
 ## Versioning & Publishing Packages
 
 This example uses [Changesets](https://github.com/changesets/changesets) to manage versions, create changelogs, and publish to npm. It's preconfigured so you can start publishing packages immediately.
@@ -208,19 +222,7 @@ To generate your changelog, run `pnpm changeset` locally:
 When you push your code to GitHub, the [GitHub Action](https://github.com/changesets/action) will run the `release` script defined in the root `package.json`:
 
 ```bash
-turbo run build --filter=docs^... && changeset publish
+pnpm release
 ```
 
-Turborepo runs the `build` script for all publishable packages (excluding docs) and publishes the packages to npm. By default, this example includes `sonics` as the npm organization. To change this, do the following:
-
-- Rename folders in `packages/*` to replace `sonics` with your desired scope
-- Search and replace `sonics` with your desired scope
-- Re-run `pnpm install`
-
-To publish packages to a private npm organization scope, **remove** the following from each of the `package.json`'s
-
-```diff
-- "publishConfig": {
--  "access": "public"
-- },
-```
+Turborepo runs the `build` script for all publishable packages (excluding docs/web) and publishes the packages to npm. By default, this example includes `sonics` as the npm organization.
