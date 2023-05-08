@@ -27,5 +27,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@mui/material": "^5.12.3",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "styled-components": "6.0.0-rc.1"
   }
 }
