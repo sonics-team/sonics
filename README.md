@@ -23,28 +23,28 @@ Turborepo Examples
 </ol>
 
 ## Core Team
-<a href="https://github.com/AousMohammad">
+<a href="https://github.com/ahmad-aqr">
 <p>Ahmad Al-aqraa</p>
 </a>
 <a href="https://github.com/AousMohammad">
 <p>Aous Mohammad</p>
 </a>
-<a href="https://github.com/AousMohammad">
+<a href="https://github.com/dytohan">
 <p>Dyaa Tohan</p>
 </a>
-<a href="https://github.com/AousMohammad">
+<a href="https://github.com/mohammedyosef761">
 <p>Mohammad Youssef</p>
 </a>
-<a href="https://github.com/AousMohammad">
+<a href="">
 <p>Rahaf thiab</p>
 </a>
-<a href="https://github.com/AousMohammad">
+<a href="https://github.com/RiadAlsaqal">
 <p>Riad Al-saqal</p>
 </a>
-<a href="https://github.com/AousMohammad">
+<a href="https://github.com/RoulaRohban">
 <p>Roula Al-rouhban</p>
 </a>
-<a href="https://github.com/AousMohammad">
+<a href="https://github.com/Shayar-Hassan">
 <p>Shayar Hasan</p>
 </a>
 
