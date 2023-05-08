@@ -16,10 +16,7 @@
     "@sonics/tsconfig": "workspace:0.0.0",
     "eslint-config-sonics": "workspace:0.0.0",
     "eslint": "^8.15.0",
-    "@vitejs/plugin-react": "^1.3.2",
-    "serve": "^13.0.4",
-    "typescript": "^4.9.5",
-    "vite": "^2.9.15"
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",

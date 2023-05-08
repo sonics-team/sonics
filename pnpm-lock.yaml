@@ -99,24 +99,15 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.4
         version: 18.2.4
-      '@vitejs/plugin-react':
-        specifier: ^1.3.2
-        version: 1.3.2
       eslint:
         specifier: ^8.15.0
         version: 8.29.0
       eslint-config-sonics:
         specifier: workspace:0.0.0
         version: link:../../packages/eslint-config-sonics
-      serve:
-        specifier: ^13.0.4
-        version: 13.0.4
       typescript:
         specifier: ^4.9.5
         version: 4.9.5
-      vite:
-        specifier: ^2.9.15
-        version: 2.9.15
 
   packages/eslint-config-sonics:
     dependencies:
