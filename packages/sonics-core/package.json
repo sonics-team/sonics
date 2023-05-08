@@ -16,11 +16,11 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@sonics/tsconfig": "*",
+    "@sonics/tsconfig": "workspace:*",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "eslint": "^8.15.0",
-    "eslint-config-sonics": "*",
+    "eslint-config-sonics": "workspace:*",
     "react": "^18.2.0",
     "tsup": "^5.10.1",
     "typescript": "^4.9.5",
