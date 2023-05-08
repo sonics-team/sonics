@@ -4,6 +4,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "repository": "https://github.com/sonics-team/sonics.git",
   "sideEffects": false,
   "license": "MIT",
   "files": [
@@ -29,6 +30,7 @@
     "styled-components": "6.0.0-rc.1"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
