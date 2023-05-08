@@ -31,9 +31,6 @@ jobs:
 
       - name: Install Dependencies
         run: pnpm install
-        
-      - name: Add npm user
-        run: npm adduser aous-mohammad
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
