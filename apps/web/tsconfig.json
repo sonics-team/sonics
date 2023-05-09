@@ -1,5 +1,17 @@
 {
-  "extends": "@sonics/tsconfig/react-library.json",
-  "include": ["src"],
-  "exclude": ["dist", "build", "node_modules"]
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "jsx": "react",
+    "outDir": "./build/",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "moduleResolution": "nodenext"
+  },
+  "include": ["./src/**/**/*"],
+  "files": ["src/index.tsx"]
 }

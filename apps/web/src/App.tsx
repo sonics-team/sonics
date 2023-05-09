@@ -1,12 +1,18 @@
 import React from 'react';
-import './App.css';
+import { Button } from "@sonics/core/src";
+import { useToggle } from '@sonics/utils/src/useToggle';
 
 function App() {
-  return (
-    <div className="App">
-      ss
-    </div>
-  );
+
+    const { value, toggleValue } = useToggle(false);
+    return (
+        <div className="App">
+            <div>{value.toString()}</div>
+            <Button onClick={toggleValue}>value</Button>
+            <Button onClick={() => toggleValue(true)}>make true</Button>
+            <Button onClick={() => toggleValue(false)}>make false</Button>
+        </div>
+    );
 }
 
 export default App;

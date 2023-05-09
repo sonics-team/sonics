@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.2",
+    "@webpack-cli/generators": "^3.0.4",
     "eslint": "^8.29.0",
     "eslint-config-sonics": "*",
     "prettier": "^2.8.0",
