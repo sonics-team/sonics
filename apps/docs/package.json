@@ -9,7 +9,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {
-    "@sonics/core": "workspace:0.0.0",
+    "@sonics/core": "workspace:0.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
