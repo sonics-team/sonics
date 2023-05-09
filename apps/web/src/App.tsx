@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from "@sonics/core/src";
-import { useToggle } from '@sonics/utils/src/useToggle';
+import { Button } from "@sonics-team/core/src";
+import { useToggle } from '@sonics-team/utils/src/useToggle';
 
 function App() {
 

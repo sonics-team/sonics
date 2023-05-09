@@ -1,5 +1,5 @@
 {
-  "name": "@sonics/utils",
+  "name": "@sonics-team/utils",
   "version": "0.1.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -16,7 +16,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@sonics/tsconfig": "workspace:*",
+    "@sonics-team/tsconfig": "workspace:*",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "eslint": "^8.15.0",

@@ -26,13 +26,13 @@
     "webpack": "^5.82.0",
     "webpack-cli": "^5.1.1",
     "webpack-dev-server": "^4.15.0",
-    "@sonics/tsconfig": "workspace:1.0.0",
+    "@sonics-team/tsconfig": "workspace:1.0.0",
     "eslint-config-sonics": "workspace:1.0.0"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@sonics/core": "workspace:0.0.1",
-    "@sonics/utils": "workspace:0.1.1"
+    "@sonics-team/core": "workspace:0.0.1",
+    "@sonics-team/utils": "workspace:0.1.1"
   }
 }

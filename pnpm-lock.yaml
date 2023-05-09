@@ -25,7 +25,7 @@ importers:
 
   apps/docs:
     dependencies:
-      '@sonics/core':
+      '@sonics-team/core':
         specifier: workspace:0.0.1
         version: link:../../packages/sonics-core
       react:
@@ -35,7 +35,7 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@sonics/tsconfig':
+      '@sonics-team/tsconfig':
         specifier: workspace:1.0.0
         version: link:../../packages/sonics-tsconfig
       '@storybook/addon-actions':
@@ -74,10 +74,10 @@ importers:
 
   apps/web:
     dependencies:
-      '@sonics/core':
+      '@sonics-team/core':
         specifier: workspace:0.0.1
         version: link:../../packages/sonics-core
-      '@sonics/utils':
+      '@sonics-team/utils':
         specifier: workspace:0.1.1
         version: link:../../packages/sonics-utils
       react:
@@ -87,7 +87,7 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@sonics/tsconfig':
+      '@sonics-team/tsconfig':
         specifier: workspace:1.0.0
         version: link:../../packages/sonics-tsconfig
       '@types/react':
@@ -162,7 +162,7 @@ importers:
       '@mui/styled-engine-sc':
         specifier: ^5.12.0
         version: 5.12.0(styled-components@6.0.0-rc.1)
-      '@sonics/tsconfig':
+      '@sonics-team/tsconfig':
         specifier: workspace:*
         version: link:../sonics-tsconfig
       '@types/react':
@@ -194,7 +194,7 @@ importers:
 
   packages/sonics-utils:
     devDependencies:
-      '@sonics/tsconfig':
+      '@sonics-team/tsconfig':
         specifier: workspace:*
         version: link:../sonics-tsconfig
       '@types/react':
