@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "@sonics/testing",
+  "name": "@sonics-team/testing",
   "description": "test project",
   "private": true,
   "scripts": {
