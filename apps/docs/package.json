@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "start-storybook -p 6006",
-    "build": "build-storybook --docs",
+    "build": "build-storybook --docs && mv storybook-static ../../public",
     "preview-storybook": "serve storybook-static",
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {
     "@sonics-team/core": "workspace:0.0.1",
+    "next": "13.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
