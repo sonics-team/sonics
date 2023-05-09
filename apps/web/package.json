@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "@soncis/testing",
+  "name": "@sonics/testing",
   "description": "test project",
   "private": true,
   "scripts": {
@@ -27,7 +27,7 @@
     "webpack-cli": "^5.1.1",
     "webpack-dev-server": "^4.15.0",
     "@sonics-team/tsconfig": "workspace:1.0.0",
-    "eslint-config-sonics": "workspace:1.0.0"
+    "@sonics-team/eslint": "workspace:1.0.0"
   },
   "dependencies": {
     "react": "^18.2.0",

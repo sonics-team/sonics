@@ -14,7 +14,7 @@ module.exports = {
       resolve: {
         alias: [
           {
-            find: "@sonics/core",
+            find: "@sonics-team/core",
             replacement: path.resolve(
               __dirname,
               "../../../packages/sonics-core/"

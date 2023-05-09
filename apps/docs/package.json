@@ -1,5 +1,5 @@
 {
-  "name": "@sonics/docs",
+  "name": "@sonics-team/docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -22,7 +22,7 @@
     "@storybook/builder-vite": "^0.1.41",
     "@storybook/react": "^6.5.14",
     "@vitejs/plugin-react": "^1.3.2",
-    "eslint-config-sonics": "workspace:1.0.0",
+    "@sonics-team/eslint": "workspace:1.0.0",
     "serve": "^13.0.4",
     "typescript": "^4.9.3",
     "vite": "^2.9.15"

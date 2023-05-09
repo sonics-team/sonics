@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a aria-label="NPM version" href="https://www.npmjs.com/package/@sonics/core">
+  <a aria-label="NPM version" href="https://www.npmjs.com/package/@sonics-team/core">
     CORE: 0.0.1
   </a>
-  <a aria-label="NPM version" href="https://www.npmjs.com/package/@sonics/utils">
+  <a aria-label="NPM version" href="https://www.npmjs.com/package/@sonics-team/utils">
     UTILS: 0.1.0
   </a>
 </p>
@@ -79,10 +79,10 @@ This Turborepo includes the following packages and applications:
 
 - `apps/docs`: Component documentation site with Storybook
 - `apps/web`: React application to use packages and test it
-- `packages/@sonics/core`: Core React components
-- `packages/@sonics/utils`: Shared React utilities
-- `packages/@sonics/tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
-- `packages/eslint-config-sonics`: ESLint preset
+- `packages/@sonics-team/core`: Core React components
+- `packages/@sonics-team/utils`: Shared React utilities
+- `packages/@sonics-team/tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
+- `packages/@sonics-team/eslint`: ESLint preset
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/). Workspaces enables us to "hoist" dependencies that are shared between packages to the root `package.json`. This means smaller `node_modules` folders and a better local dev experience. To install a dependency for the entire monorepo, use the `-w` workspaces flag with `pnpm add`.
 
@@ -104,7 +104,7 @@ tsup src/index.tsx --format esm,cjs --dts --external react
 
 ```json:sonics-core/package.json
 {
-  "name": "@sonics/core",
+  "name": "@sonics-team/core",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -211,7 +211,7 @@ You'll need to create an `NPM_TOKEN` and `GITHUB_TOKEN` and add it to your GitHu
 
 ### Changesets instructions:
 
-- When we fix a bug in @sonics/core as example:
+- When we fix a bug in @sonics-team/core as example:
 1. `cd packages/sonics-core`
 2. `npm version patch`
  
