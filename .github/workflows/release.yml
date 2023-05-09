@@ -32,7 +32,7 @@ jobs:
         with:
           node-version: 16.x
       - run: |
-         echo "@sonics:registry=https://npm.pkg.github.com" >> .npmrc
+         echo "@sonics-team:registry=https://npm.pkg.github.com" >> .npmrc
          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
       
       - name: Pick a package manager
