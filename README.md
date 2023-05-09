@@ -4,7 +4,10 @@
 
 <p align="center">
   <a aria-label="NPM version" href="https://www.npmjs.com/package/@sonics/core">
-    NPM: 0.0.0
+    CORE: 0.0.1
+  </a>
+  <a aria-label="NPM version" href="https://www.npmjs.com/package/@sonics/utils">
+    UTILS: 0.1.0
   </a>
 </p>
 
