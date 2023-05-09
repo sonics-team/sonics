@@ -1,7 +1,6 @@
 {
   "name": "@sonics/tsconfig",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
