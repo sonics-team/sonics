@@ -205,9 +205,23 @@ export default function App() {
 
 ## Versioning & Publishing Packages
 
-This example uses [Changesets](https://github.com/changesets/changesets) to manage versions, create changelogs, and publish to npm. It's preconfigured so you can start publishing packages immediately.
+We uses [Changesets](https://github.com/changesets/changesets) to manage versions, create changelogs, and publish to npm. It's preconfigured so you can start publishing packages immediately.
 
 You'll need to create an `NPM_TOKEN` and `GITHUB_TOKEN` and add it to your GitHub repository settings to enable access to npm. It's also worth installing the [Changesets bot](https://github.com/apps/changeset-bot) on your repository.
+
+### Changesets instructions:
+
+- When we fix a bug in @sonics/core as example:
+1. `cd packages/sonics-core`
+2. `npm version patch`
+ 
+- When we add feature or improve it:
+1. `cd packages/sonics-core`
+2. `npm version minor`
+
+- When we finish our milestone or reach planned target:
+1. `cd packages/sonics-core`
+2. `npm version major`
 
 ### Generating the Changelog
 
