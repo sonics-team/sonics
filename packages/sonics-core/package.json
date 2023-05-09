@@ -30,7 +30,6 @@
     "styled-components": "6.0.0-rc.1"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://www.npmjs.com/package/@sonics/core"
+    "access": "public"
   }
 }
