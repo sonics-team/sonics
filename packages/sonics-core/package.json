@@ -4,7 +4,10 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "repository": "https://github.com/sonics-team/sonics",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonics-team/sonics.git"
+  },
   "sideEffects": false,
   "license": "MIT",
   "files": [
