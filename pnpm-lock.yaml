@@ -26,7 +26,7 @@ importers:
   apps/docs:
     dependencies:
       '@sonics/core':
-        specifier: workspace:0.0.0
+        specifier: workspace:0.0.1
         version: link:../../packages/sonics-core
       react:
         specifier: ^18.2.0
@@ -75,7 +75,7 @@ importers:
   apps/web:
     dependencies:
       '@sonics/core':
-        specifier: workspace:0.0.0
+        specifier: workspace:0.0.1
         version: link:../../packages/sonics-core
       '@sonics/utils':
         specifier: workspace:0.0.0
