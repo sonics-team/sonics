@@ -2,16 +2,29 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Next.js",
   "extends": "./base.json",
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true
+  },
   "compilerOptions": {
     "allowJs": true,
     "declaration": false,
     "declarationMap": false,
     "incremental": true,
-    "jsx": "preserve",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "module": "esnext",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "es6",
     "noEmit": true,
     "resolveJsonModule": true,
-    "target": "es5"
+    "target": "es5",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node"
   }
 }
