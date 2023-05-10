@@ -20,10 +20,10 @@ importers:
   apps/docs:
     dependencies:
       '@sonics-team/core':
-        specifier: workspace:0.0.1
+        specifier: workspace:0.0.2
         version: link:../../packages/sonics-core
       '@sonics-team/utils':
-        specifier: workspace:0.1.1
+        specifier: workspace:0.1.2
         version: link:../../packages/sonics-utils
       react:
         specifier: ^18.2.0
@@ -33,10 +33,10 @@ importers:
         version: 18.2.0(react@18.2.0)
     devDependencies:
       '@sonics-team/eslint':
-        specifier: workspace:1.0.0
+        specifier: workspace:1.0.1
         version: link:../../packages/eslint-config-sonics
       '@sonics-team/tsconfig':
-        specifier: workspace:1.0.0
+        specifier: workspace:1.0.1
         version: link:../../packages/sonics-tsconfig
       '@storybook/addon-essentials':
         specifier: ^7.0.10
@@ -102,10 +102,10 @@ importers:
   apps/web:
     dependencies:
       '@sonics-team/core':
-        specifier: workspace:0.0.1
+        specifier: workspace:0.0.2
         version: link:../../packages/sonics-core
       '@sonics-team/utils':
-        specifier: workspace:0.1.1
+        specifier: workspace:0.1.2
         version: link:../../packages/sonics-utils
       react:
         specifier: ^18.2.0
@@ -115,10 +115,10 @@ importers:
         version: 18.2.0(react@18.2.0)
     devDependencies:
       '@sonics-team/eslint':
-        specifier: workspace:1.0.0
+        specifier: workspace:1.0.1
         version: link:../../packages/eslint-config-sonics
       '@sonics-team/tsconfig':
-        specifier: workspace:1.0.0
+        specifier: workspace:1.0.1
         version: link:../../packages/sonics-tsconfig
       '@types/react':
         specifier: ^18.2.6
