@@ -10,8 +10,8 @@
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {
-    "@sonics-team/core": "workspace:0.0.2",
-    "@sonics-team/utils": "workspace:0.1.2",
+    "@sonics-team/core": "workspace:0.0.3",
+    "@sonics-team/utils": "workspace:0.1.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -35,8 +35,8 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.0.10",
     "typescript": "^5.0.2",
-    "@sonics-team/tsconfig": "workspace:1.0.1",
-    "@sonics-team/eslint": "workspace:1.0.1",
+    "@sonics-team/tsconfig": "workspace:1.0.2",
+    "@sonics-team/eslint": "workspace:1.0.2",
     "vite": "^4.3.2"
   }
 }
