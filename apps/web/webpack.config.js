@@ -12,7 +12,7 @@ const stylesHandler = isProduction
 
 const config = {
   entry: {
-    app: ["./src/index.tsx", "webpack-hot-middleware/client"],
+    app: ["./src/index.tsx"],
     vendor: ["react", "react-dom"],
   },
   output: {
