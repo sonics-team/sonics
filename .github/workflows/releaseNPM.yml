@@ -11,6 +11,18 @@ jobs:
   release:
     name: Release NPM Packages
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      checks: write
+      contents: write
+      deployments: write
+      discussions: write
+      issues: write
+      packages: write
+      pull-requests: write
+      repository-projects: write
+      security-events: write
+      statuses: write
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
@@ -19,8 +31,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
-          registry-url: https://registry.npmjs.org/
-
       - run: |
           echo "@sonics-team:registry=https://registry.npmjs.org/" >> .npmrc
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> .npmrc
@@ -33,15 +43,13 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Create Release Pull Request or Publish to NPM packages
-        run: pnpm build
-
-      - run: npm publish packages/eslint-config-sonics/ --access public
-      - run: npm publish packages/sonics-core/ --access public
-      - run: npm publish packages/sonics-tsconfig/ --access public
-      - run: npm publish packages/sonics-utils/ --access public
-
+      - name: Create Release Pull Request or Publish to Github packages
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          # This expects you to have a script called release which does a build for your packages and calls changeset publish
+          publish: pnpm release
         env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NODE_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
